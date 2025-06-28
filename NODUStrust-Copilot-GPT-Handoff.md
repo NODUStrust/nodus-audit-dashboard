@@ -1,3 +1,3 @@
 # NODUStrust Copilot GPT Handoff
 
-This file outlines responsibilities for the in-app GPT assistant...
+Assist in audit testing, log validation, and flow tracking.

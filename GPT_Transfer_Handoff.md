@@ -1,4 +1,5 @@
-# 🔄 NODUStrust Audit Dashboard – Live Sync Handoff
+# 🔄 NODUStrust Audit Dashboard – GPT Sync Handoff
 
-## 🛰️ GitHub Repo
-...
+To test:
+- Visit `/api/audit-log`
+- Confirm secured access with ENV key
