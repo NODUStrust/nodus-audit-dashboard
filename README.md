@@ -1,4 +1,4 @@
 # NODUStrust Dashboard
 
-Use this dashboard to securely fetch audit logs via a protected API.
-Ensure your AUDIT_API_KEY is set in Vercel.
+Uses Vercel serverless API to fetch audit logs securely.
+Ensure environment variable `AUDIT_API_KEY` is configured in Vercel.
