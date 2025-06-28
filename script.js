@@ -5,7 +5,11 @@ function fetchLogs() {
     }
   })
   .then(response => {
-    if (!response.ok) throw new Error('Unauthorized or failed');
+    if (!response.ok) {
+      return response.text().then(text => {
+        throw new Error(`Server responded: ${response.status} ${text}`);
+      });
+    }
     return response.json();
   })
   .then(data => {
