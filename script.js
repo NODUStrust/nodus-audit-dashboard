@@ -6,5 +6,5 @@ function fetchLogs() {
   })
   .then(res => res.json())
   .then(data => document.getElementById('output').textContent = JSON.stringify(data, null, 2))
-  .catch(err => console.error(err));
+  .catch(err => console.error('Fetch error:', err));
 }
