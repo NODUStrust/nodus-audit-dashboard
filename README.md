@@ -1,4 +1,4 @@
-# NODUStrust Dashboard
+# NODUStrust Dashboard (Flat Upload)
 
-Uses Vercel serverless API to fetch audit logs securely.
-Ensure environment variable `AUDIT_API_KEY` is configured in Vercel.
+Deployable via mobile or single-file GitHub upload.
+Supports secure audit log fetch via /api/audit-log endpoint.
