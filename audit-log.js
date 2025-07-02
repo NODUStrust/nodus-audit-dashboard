@@ -4,7 +4,7 @@ export default function handler(req, res) {
   if (auth === expected) {
     res.status(200).json([
       { id: 1, event: 'Trust Created' },
-      { id: 2, event: 'Log Entry' }
+      { id: 2, event: 'Log Entry Acknowledged' }
     ]);
   } else {
     res.status(403).send('Unauthorized');

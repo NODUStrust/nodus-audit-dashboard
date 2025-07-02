@@ -1,7 +1,6 @@
-# NODUStrust Dashboard (Vercel API)
+# NODUStrust Dashboard
 
-Includes:
-- `/api/audit-log.js` for secure logs
-- Environment variable: `AUDIT_API_KEY`
+Secure audit dashboard using Vercel serverless backend. Use `Fetch Audit Logs` to view data.
 
-Deploys fully on Vercel
+Environment Variable Required:
+- `AUDIT_API_KEY`
