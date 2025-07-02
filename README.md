@@ -1,4 +1,7 @@
-# NODUStrust Dashboard (Flat Upload)
+# NODUStrust Dashboard (Vercel API)
 
-Deployable via mobile or single-file GitHub upload.
-Supports secure audit log fetch via /api/audit-log endpoint.
+Includes:
+- `/api/audit-log.js` for secure logs
+- Environment variable: `AUDIT_API_KEY`
+
+Deploys fully on Vercel

@@ -17,6 +17,5 @@ function fetchLogs() {
   })
   .catch(error => {
     document.getElementById('output').textContent = 'Error: ' + error.message;
-    console.error('Fetch error:', error);
   });
 }
